@@ -7,7 +7,7 @@ type Props = {
     setTasks: React.Dispatch<React.SetStateAction<Task[]>>
 }
  
-const TaskList: React.FC<Props> = ({ tasks}) => {
+const TaskList: React.FC<Props> = ({tasks}) => {
   return (
   <div className="inner">
     {

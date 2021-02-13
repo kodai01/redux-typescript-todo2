@@ -7,7 +7,7 @@ type Props = {
     // handleDelete: (task: Task) => void
 }
  
-const TaskItem: React.FC<Props> = ({ task}) => {
+const TaskItem: React.FC<Props> = ({task}) => {
     return (
       <li className={task.done ? 'done' : ''}>
             <label>
